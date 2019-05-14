@@ -1,10 +1,10 @@
 html,body{margin:0;padding:0}
-body{font: 76% times,times;text-align:center}
+body{font: 76% courier,courier;text-align:center}
 p{margin:0 10px 10px}
 a{padding:5px; text-decoration:none; color:#000000;}
-div#header{background-color:#767F9D;}
+div#header{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); background-color:#767F9D;}
 div#header h1{height:80px;line-height:80px;margin:0;padding-left:10px;}
-div#container{text-align:left}
+div#container{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); text-align:left}
 div#content p{line-height:1.4}
 div#navigation{background:#CED6D9;}
 div#navigation ul{margin:15px 0; padding:0; list-style-type:none;}
@@ -18,3 +18,4 @@ div#content{margin-right: 300px}
 div#navigation{float:left;width:150px;margin-left:-300px}
 div#extra{float:left;width:150px;margin-left:-150px}
 div#footer{clear:left;width:100%}
+div#image{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
